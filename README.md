@@ -1,24 +1,28 @@
-# To-Do List App
+# WeValidate – Real-Time Email Validator
 
-A simple and interactive **To-Do List web application** built with **HTML, CSS, and JavaScript** that allows users to manage their daily tasks with add, edit, delete, and complete functionality.
+**WeValidate** is a simple and responsive web tool that checks the validity of email addresses in real time. It’s built using **HTML, CSS, and JavaScript** with integration to the **EmailValidation.io API** for accurate validation. :contentReference[oaicite:0]{index=0}
 
-## 🚀 Features
+## 🔍 Features
 
-✔ Add new tasks dynamically  
-✔ Edit existing tasks inline  
-✔ Mark tasks as completed  
-✔ Delete individual tasks  
-✔ Real-time updates using DOM manipulation  
+- 🎯 **Real-Time Email Validation** – Validates email addresses instantly as the user types.  
+- ✔️ **Email Format Checking** – Ensures the entered email is in a correct format and not blank.  
+- 🧠 **API-Based Verification** – Uses the EmailValidation.io API for enhanced validation logic. :contentReference[oaicite:1]{index=1}  
+- 🗑️ **Add / Edit / Delete Tasks UI Logic** – Includes simple task management UI elements that allow task creation, editing, and deletion using DOM manipulation (even if not persistent).  
+- 📱 **Responsive UI** – Designed to work well on both desktop and mobile screens.  
 
-## 👨‍💻 How It Works
+## 🧰 Technologies Used
 
-The app uses JavaScript to listen for user interactions and manipulate the DOM to add, update, and remove tasks instantly without refreshing the page. Tasks become more visually engaging with completed states.
+- **HTML** – Structure and content.  
+- **CSS** – Styling and layout.  
+- **JavaScript** – DOM manipulation and logic for email validation and task actions.
 
-## 🧱 Technologies Used
+## 🚀 Demo
 
-- **HTML5** – Structure of the application  
-- **CSS3** – Styling and responsive design  
-- **JavaScript** – Functional logic and DOM updates  
+Access the live version here:  
+👉 https://ganeshg012.github.io/WeValidate/
 
-## 📁 File Structure
+## 📦 Usage
 
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/ganeshg012/WeValidate.git
